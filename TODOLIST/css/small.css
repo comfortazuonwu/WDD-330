@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Quintessential&display=swap');
+
+
+body{
+    background-color:#E6BCCD;
+    color:#012A36;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+h1{
+    background-color:#29274C;
+    color:#E6BCCD;
+    padding:1em;
+    text-align: center;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+div.task{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-left:35em;
+    margin-right:35em;
+    background-color:#29274C;
+    color:#E6BCCD;
+    padding:1em;
+    border-radius: 10px;
+    border-style: double;
+    border-width: 5px;
+}
+div#cont{
+    text-align:center;
+    
+}
+div#input{
+    background-color:#29274C;
+    color:#E6BCCD;
+    padding:1em;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
